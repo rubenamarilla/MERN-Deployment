@@ -1,0 +1,45 @@
+.borders {
+    border: 3px black solid;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bigTitle {
+    font-size: 2rem;
+    justify-content: flex-start;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link {
+
+    justify-content: flex-end;
+    
+}
+
+.subtitle {
+    font-size: 35px;
+}
+
+input {
+    margin: 5px;
+}
+
+.formColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.btn {
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+    font-weight: bolder;
+    color: white;
+    background-color: #2b78e4;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

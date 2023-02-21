@@ -1,0 +1,26 @@
+.bolder {
+    font-weight: bold;
+    font-size: larger;
+}
+
+#subHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+#adoptButton {
+    background-color: #cf2a27;
+
+}
+
+#detailTable {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#likesTable {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
