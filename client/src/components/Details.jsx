@@ -48,11 +48,17 @@ const Details = () => {
     <div>
       <div className="header">
         <h1 className="bigTitle">Pet Shelter</h1>
-        <Link className="link" to={"/"}>back to home</Link>
+        <Link className="link" to={"/"}>
+          back to home
+        </Link>
       </div>
       <div id="subHeader">
         <h2 className="subtitle">Details about: {name}</h2>
-        <button onClick={(e) => adoptDelete(id)} id="adoptButton" className="btn">
+        <button
+          onClick={(e) => adoptDelete(id)}
+          id="adoptButton"
+          className="btn"
+        >
           <span className="material-symbols-rounded">home</span>Adopt {name}
         </button>
       </div>
@@ -88,7 +94,11 @@ const Details = () => {
           </tbody>
         </table>
         <div id="likesTable">
-          <button onClick={handleLikes} style={{backgroundColor: "#009e0f"}} className="btn">
+          <button
+            onClick={handleLikes}
+            style={{ backgroundColor: "#009e0f" }}
+            className="btn"
+          >
             <span className="material-symbols-rounded">thumb_up</span>Like{" "}
             {name}
           </button>

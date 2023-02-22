@@ -1,8 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import "../styles/EditPet.css"
-
 
 const EditPet = () => {
   const [name, setName] = useState("");
@@ -66,8 +64,8 @@ const EditPet = () => {
   return (
     <div>
       <div className="header">
-      <h1 className="bigTitle">Pet Shelter</h1>
-      <Link to={"/"}>back to home</Link>
+        <h1 className="bigTitle">Pet Shelter</h1>
+        <Link to={"/"}>back to home</Link>
       </div>
       <h3 className="subtitle">Edit {name}</h3>
       <form onSubmit={handleSubmit} className="borders">

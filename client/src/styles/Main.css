@@ -4,19 +4,22 @@
     display: flex;
     justify-content: space-evenly;
 }
+
 .bigTitle {
     font-size: 2rem;
     justify-content: flex-start;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .link {
 
     justify-content: flex-end;
-    
+
 }
 
 .subtitle {
@@ -32,6 +35,7 @@ input {
     flex-direction: column;
     justify-content: space-around;
 }
+
 .btn {
     border: 3px solid black;
     box-shadow: 4px 4px black;
