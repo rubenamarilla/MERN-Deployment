@@ -7,7 +7,7 @@ module.exports.createPet = (request, response) => {
 };
 
 module.exports.getAllPets = (request, response) => {
-  Pet.find({})
+  Pet.find({}).sort({type: 1})
     .then((pets) => response.json(pets))
     .catch((err) => response.json(err));
 };
